@@ -1,0 +1,40 @@
+/* Genel arkaplan */
+body {
+  padding-top: 54px;
+  background-color: #fafafa;
+}
+
+/* Navbar yüksekliği */
+.navbar {
+  height: 54px;
+}
+
+/* Logo sola kaydır */
+.logo {
+  margin-left: 192px;
+}
+
+/* Placeholder içine arama ikonu */
+::placeholder {
+  background-image: url("assets/search.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 25px;
+}
+
+/* Middle area max height */
+.middlearea {
+  max-height: 200px !important;
+}
+
+/* Sticky sidebar */
+.stickysidebar {
+  position: sticky;
+  top: 70px;
+}
+
+/* Right panel */
+.rightpanel {
+  background-color: white;
+  border: none;
+}
